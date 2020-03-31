@@ -6,7 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-input.csv
 data/*.json
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
