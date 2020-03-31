@@ -1,14 +1,15 @@
 {
   "name": "google_popular_places",
   "version": "1.0.0",
-  "description": "scrapper to fetch popular google times as histogram values  for google places and save as JSON ",
+  "description": "scrapper to fetch popular google times as histogram values for google places and save as JSON ",
   "main": "index.js",
   "dependencies": {
+    "d3-dsv": "^1.2.0",
     "puppeteer": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
